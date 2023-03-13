@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "sql-app"
+version = "0.1.0"
+description = ""
+authors = ["kandalog <asuasu.tee@gmail.com>"]
+readme = "README.md"
+packages = [{include = "sql_app"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.94.0"
+uvicorn = "^0.21.0"
+sqlalchemy = "^2.0.5.post1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
